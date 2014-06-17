@@ -1,6 +1,6 @@
 # Maintainer: Sasha Khamkov <sanusart@gmail.com>
 pkgname=gisto
-pkgver=0.2.3b
+pkgver=0.2.5b
 pkgrel=1
 epoch=
 pkgdesc="Cross-platform gist snippets management desktop application that allows you and your team share code snippets fast and easily. Based on GitHub Gist Infrastructure which means you can use all your existing snippets by connecting your GitHub account."
@@ -16,8 +16,8 @@ _gisto_arch="x86"
 
 source=("http://download.gistoapp.com/Gisto-$pkgver-Linux_${_gisto_arch}.tar.gz")    
 
-md5sums=('5fdb3667039c33b308422e60c8d443ae')
-[ "$CARCH" = "x86_64" ] && md5sums[0]='2b203811f87350b74d907df63cda0d6e'
+md5sums=('256ccbdd6ea5f33a6ec142ba5d6108e7')
+[ "$CARCH" = "x86_64" ] && md5sums[0]='96c0cf1405363254af9414ad911cca56'
 
 package() {
 
