@@ -13,4 +13,4 @@ clone: https://github.com/falconindy/pkgbuild-introspection to the same director
 
 Run `./pkgbuild-introspection/make` - this will build mkaurball
 
-Run `mkaurball` - this will create _PKG-NAME-VERSION.tar.gz_ archive - the one that need to be uploaded to AUR
+Run `./pkgbuild-introspection/mkaurball` - this will create _PKG-NAME-VERSION.tar.gz_ archive - the one that need to be uploaded to AUR
