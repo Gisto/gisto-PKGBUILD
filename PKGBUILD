@@ -1,7 +1,7 @@
 # Maintainer: Sasha Khamkov <sanusart@gmail.com>
 pkgname=gisto
 pkgver=0.2.6b
-pkgrel=2
+pkgrel=1
 epoch=
 pkgdesc="Cross-platform gist snippets management desktop application that allows you and your team share code snippets fast and easily. Based on GitHub Gist Infrastructure which means you can use all your existing snippets by connecting your GitHub account."
 arch=("i686" "x86_64")
@@ -23,5 +23,5 @@ package() {
 
 	mkdir -p $pkgdir/usr/{bin,share}
 	cp -R $srcdir/Gisto-$pkgver-Linux_${_gisto_arch}/{bin,share} $pkgdir/usr/
-	
+
 }
