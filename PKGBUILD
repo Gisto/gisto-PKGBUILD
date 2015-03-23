@@ -1,7 +1,7 @@
 # Maintainer: Sasha Khamkov <sanusart@gmail.com>
 pkgname=gisto
 pkgver=0.3.0
-pkgrel=1
+pkgrel=2
 epoch=
 pkgdesc="Cross-platform gist snippets management desktop application that allows you and your team share code snippets fast and easily. Based on GitHub Gist Infrastructure which means you can use all your existing snippets by connecting your GitHub account."
 arch=("i686" "x86_64")
@@ -37,7 +37,7 @@ package() {
 
     printf "\e[43m  \e[0m CREATE GISTO SYSTEM LINK \n\n\n"
 
-    ln -s $pkgdir/opt/gisto/gisto $pkgdir/usr/bin/gisto
+    ln -sf /opt/gisto/gisto $pkgdir/usr/bin/gisto
 
     printf "\e[43m  \e[0m DONE PREPARATIONS :) \n\n\n"
 
